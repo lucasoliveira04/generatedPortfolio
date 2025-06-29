@@ -7,5 +7,6 @@ export type HeaderProps = {
     textColor?: string;
 
     props?: React.HTMLAttributes<HTMLDivElement>;
+    onClick?: () => void;
 
 }

@@ -3,11 +3,11 @@ import { Header } from "@/components/header";
 export function UserPage() {  
     
     const headerObject = {
-        title: "User Page",
-        subtitle: "Welcome to the user page",
+        title: "Seu titulo",
+        subtitle: "Seu subtitulo (opcional)",
         backgroundColor: "bg-gray-300",
-        textColorTitle: "text-black",
-        textColorSubtitle: "text-gray-200",
+        textColorTitle: "text-black font-bold",
+        textColorSubtitle: "text-black font-semibold",
     }
 
     return(
